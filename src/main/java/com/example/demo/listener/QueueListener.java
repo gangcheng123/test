@@ -10,6 +10,7 @@ public class QueueListener {
     @SendTo("out.queue")
     public String receive(String text){
         System.out.println("QueueListener: consumer-a 收到一条信息: " + text);
+        System.out.println("ddd");
         return "consumer-a received : " + text;
     }
 }
