@@ -13,6 +13,7 @@ public class HelloController {
     @RequestMapping(value = "/1",method = RequestMethod.GET)
     public  String  hello(){
         System.out.println("first change");
+        System.out.println("second change");
         return "hello";
     }
 
